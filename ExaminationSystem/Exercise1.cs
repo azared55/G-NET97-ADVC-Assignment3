@@ -34,6 +34,7 @@ namespace ExaminationSystem
 
             List<string> gradeStrings = grades.Select(g => "Grade: " + g).ToList();
             Console.WriteLine("Grade strings: " + string.Join(", ", gradeStrings));
+
         }
     }
 }
