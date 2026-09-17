@@ -7,28 +7,28 @@ namespace ExaminationSystem
     {
         public static void Run()
         {
-            Console.WriteLine("===== Exercise 6: Browser History (Undo) =====\n");
+            //Console.WriteLine("===== Exercise 6: Browser History (Undo) =====\n");
 
-            Stack<string> history = new Stack<string>();
-            history.Push("google.com");
-            history.Push("github.com");
-            history.Push("stackoverflow.com");
-            history.Push("youtube.com");
-            history.Push("claude.ai");
+            //Stack<string> history = new Stack<string>();
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
 
-            Console.WriteLine("Current page: " + history.Peek());
+            //Console.WriteLine("Current page: " + history.Peek());
 
-            Console.WriteLine("\nGoing back 3 times:");
-            for (int i = 0; i < 3; i++)
-                Console.WriteLine("Left: " + history.Pop());
+            //Console.WriteLine("\nGoing back 3 times:");
+            //for (int i = 0; i < 3; i++)
+            //    Console.WriteLine("Left: " + history.Pop());
 
-            Console.WriteLine("Current page now: " + history.Peek());
+            //Console.WriteLine("Current page now: " + history.Peek());
 
-            history.Pop();
-            history.Pop();
+            //history.Pop();
+            //history.Pop();
 
-            bool result = history.TryPop(out string page);
-            Console.WriteLine("\nTryPop on empty stack: " + result + " (stack is empty)");
+            //bool result = history.TryPop(out string page);
+            //Console.WriteLine("\nTryPop on empty stack: " + result + " (stack is empty)");
         }
     }
 }
